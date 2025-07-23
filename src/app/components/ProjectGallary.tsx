@@ -6,7 +6,9 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import One from "../../../public/trans1.jpg"
 import Two from "../../../public/trans2.jpg"
 import Three from "../../../public/trans3.jpg"
-import Four from "../../../public/trans4.jpg"
+import Four from "../../../public/assets/trans8.jpg"
+import Five from "../../../public/assets/trans7.jpg"
+import Six from "../../../public/assets/trans6.jpg"
 
 const projects = [
   {
@@ -37,13 +39,13 @@ const projects = [
     id: 5,
     title: "Renewable Energy Integration",
     description: "Solar power integration with existing electrical infrastructure",
-    image: One,
+    image: Five,
   },
   {
     id: 6,
     title: "Smart Building Automation",
     description: "IoT-enabled electrical systems for energy efficiency",
-    image: Four,
+    image: Six,
   },
 ];
 

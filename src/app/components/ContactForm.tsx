@@ -112,7 +112,7 @@ export function ContactForm() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Our Office</h4>
-                    <p className="text-gray-600">123 Engineering Lane, Tech City, TC 10101</p>
+                    <p className="text-gray-600">150 Awolowo Rd, ikoyi LAGOS</p>
                   </div>
                 </div>
                 
@@ -133,8 +133,9 @@ export function ContactForm() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Call Us</h4>
-                    <p className="text-gray-600">+1 (123) 456-7890</p>
-                    <p className="text-gray-600">Mon-Fri: 8am-6pm</p>
+                    <p className="text-gray-600">(+234) 706 680 2640</p>
+                    <p className="text-gray-600">(+234) 912 767 1675</p>
+                    {/* <p className="text-gray-600">Mon-Fri: 8am-6pm</p> */}
                   </div>
                 </div>
               </div>

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import Logo from "../../../public/assets/logo.png"
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -7,7 +9,8 @@ export function Footer() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-primary">Gulf-Meadow</h3>
+            {/* <h3 className="text-xl font-bold mb-4 text-primary">Gulf-Meadow</h3> */}
+            <Image src={Logo} alt=""  className="w-[160px] h-[160px]" width={200} height={200}/>
             <p className="text-gray-400">
               Leading electrical engineering solutions with innovation and expertise.
             </p>
@@ -40,8 +43,12 @@ export function Footer() {
             <address className="not-italic text-gray-400 space-y-2">
               <p>150 Awolowo Road, Ikoyi LAGOS</p>
               {/* <p>Tech City, TC 10101</p> */}
-              <p>Phone: (123) 456-7890</p>
-              <p>Email: info@voltedge.com</p>
+              <div className="flex gap-2">
+                <div>Phone:</div>
+                <div><p> (+234) 706 680 2640</p>
+                <p>(+234) 912 767 1675</p></div>
+              </div>
+              {/* <p>Email: info@voltedge.com</p> */}
               <div className="flex space-x-4 mt-4">
                 <Link href="#" className="text-gray-400 hover:text-primary transition">
                   <Facebook className="h-5 w-5" />

@@ -18,8 +18,8 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent z-20" />
       
       <div className="container relative z-30 h-full flex flex-col justify-center items-start text-white px-4 sm:px-6 md:px-10">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold max-w-2xl mb-6 md:leading-20">
-          Powering Innovation in Electrical Engineering
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold max-w-1xl mb-6 lg:leading-20">
+          A COMPLETE ENGINEERING, PROCUREMENT & CONSTRUCTION COMPANY(EPC)
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mb-8">
           Expert solutions for complex electrical systems with cutting-edge technology and decades of experience.
