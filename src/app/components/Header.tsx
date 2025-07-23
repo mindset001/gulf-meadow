@@ -83,7 +83,7 @@ export function Header() {
                 Services
               </Link>
               <Link
-                href="/gallery"
+                href="/gallary"
                 className="transition-colors hover:text-primary text-gray-900"
               >
                 Gallery
