@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import One from '../../../public/trans1.jpg';
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -29,12 +30,12 @@ export function Hero() {
           <Button 
             size="lg" 
             variant="outline" 
-            className="text-[red] hover:text-gray-900 border-white hover:border-gray-900"
+            className="text-[red] hover:text-gray-900 border-white hover:border-gray-900 cursor-pointer"
           >
-            Our Services
+            <Link href='/services'>Our Services</Link>
           </Button>
-          <Button size="lg" className="bg-primary hover:bg-primary/90">
-           Contact Us
+          <Button size="lg" className="bg-primary hover:bg-primary/90 cursor-pointer">
+          <Link href='/contact'> Contact Us</Link>
           </Button>
         </div>
       </div>

@@ -4,17 +4,18 @@ import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Image from "next/image";
-import Logo from "../../../public/assets/logo.png"
+import Logo from "../../../public/assets/gulf.png"
 
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="container flex h-26 items-center justify-between px-10">
-        <Link href="/" className="flex items-center space-x-2">
-        <Image src={Logo} alt="Gulf-Meadow" className="w-[120px] h-[120px]" width={200} height={200}/>
-          {/* <span className="inline-block font-bold text-xl text-primary ">
+        <Link href="/" className="flex flex-col items-center space-x-2">
+        <Image src={Logo} alt="Gulf-Meadow" className="w-[70px] h-[50px]" width={200} height={200}/>
+          <span className="uppercase inline-block font-bold text-[15px] text-primary ">
             Gulf-Meadow
-          </span> */}
+          </span>
+          <span className="uppercase text-black text-[8px]">Engineering, Procurement & Construction</span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">

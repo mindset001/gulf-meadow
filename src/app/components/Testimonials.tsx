@@ -4,25 +4,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Facilities Manager, TechCorp",
+    name: "Kolawole Abdul-Lateef",
+    role: "C.E.O ALateef Media",
     content: "Gulf-Meadow's electrical redesign of our manufacturing plant reduced our energy costs by 30% while improving reliability. Their team was professional and delivered ahead of schedule.",
     avatar: "/images/avatar1.jpg",
-    initials: "SJ",
+    initials: "AK",
   },
   {
-    name: "Michael Chen",
-    role: "Director of Operations, Urban Hospitals",
-    content: "The emergency power system Gulf-Meadow designed for our hospital has been flawless through several outages. Their attention to detail gave us complete confidence in their work.",
+    name: "Moshood Shittu",
+    role: "C.T.O Acme Innovations",
+    content: "The emergency power system Gulf-Meadow designed for our work space has been flawless through several outages. Their attention to detail gave us complete confidence in their work.",
     avatar: "/images/avatar2.jpg",
-    initials: "MC",
+    initials: "SM",
   },
   {
-    name: "David Rodriguez",
-    role: "CEO, DataFort",
+    name: "Zainab Balogun",
+    role: "CEO, Zeeq Fashion",
     content: "We trusted Gulf-Meadow with our data center's critical power infrastructure, and they exceeded our expectations at every turn. Truly experts in their field.",
     avatar: "/images/avatar3.jpg",
-    initials: "DR",
+    initials: "ZB",
   },
 ];
 

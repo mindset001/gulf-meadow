@@ -22,7 +22,7 @@ export function Footer() {
               <li><Link href="/" className="text-gray-400 hover:text-primary transition">Home</Link></li>
               <li><Link href="/about" className="text-gray-400 hover:text-primary transition">About Us</Link></li>
               <li><Link href="/services" className="text-gray-400 hover:text-primary transition">Services</Link></li>
-              <li><Link href="/gallery" className="text-gray-400 hover:text-primary transition">Projects</Link></li>
+              <li><Link href="/gallery" className="text-gray-400 hover:text-primary transition">Gallery</Link></li>
               <li><Link href="/contact" className="text-gray-400 hover:text-primary transition">Contact</Link></li>
             </ul>
           </div>
@@ -56,7 +56,7 @@ export function Footer() {
                 <Link href="#" className="text-gray-400 hover:text-primary transition">
                   <Twitter className="h-5 w-5" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-primary transition">
+                <Link href="https://wa.link/ohofjl" className="text-gray-400 hover:text-primary transition">
                   <Linkedin className="h-5 w-5" />
                 </Link>
                 <Link href="#" className="text-gray-400 hover:text-primary transition">
@@ -69,7 +69,7 @@ export function Footer() {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
           <p>&copy; {new Date().getFullYear()} Gulf-Meadow Electrical Engineering. All rights reserved.</p>
-          <p>Designed by Demlinks Innovation and Technology</p>
+          <p>Designed by Acme Innovation and Technology</p>
         </div>
       </div>
     </footer>
