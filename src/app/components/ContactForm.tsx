@@ -122,8 +122,8 @@ export function ContactForm() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email Us</h4>
-                    <p className="text-gray-600">info@voltedge.com</p>
-                    <p className="text-gray-600">support@voltedge.com</p>
+                    {/* <p className="text-gray-600">info@voltedge.com</p> */}
+                    <p className="text-gray-600">admin@gulfmeadowengineering.com</p>
                   </div>
                 </div>
                 
@@ -144,7 +144,7 @@ export function ContactForm() {
                 <h4 className="font-semibold mb-4">Emergency Service</h4>
                 <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-r">
                   <p className="text-red-700">
-                    For electrical emergencies, call our 24/7 hotline: <strong>+1 (123) 555-7890</strong>
+                    For electrical emergencies, call our 24/7 hotline: <strong>(+234) 706 680 2640</strong>
                   </p>
                 </div>
               </div>

@@ -69,7 +69,7 @@ export function Footer() {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
           <p>&copy; {new Date().getFullYear()} Gulf-Meadow Electrical Engineering. All rights reserved.</p>
-          <p>Designed by Acme Innovation and Technology</p>
+          <p>Designed by BLateef Multimedia</p>
         </div>
       </div>
     </footer>

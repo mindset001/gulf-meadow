@@ -4,21 +4,21 @@ import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 
 const testimonials = [
   {
-    name: "Kolawole Abdul-Lateef",
+    name: "Carol Eve",
     role: "C.E.O ALateef Media",
     content: "Gulf-Meadow's electrical redesign of our manufacturing plant reduced our energy costs by 30% while improving reliability. Their team was professional and delivered ahead of schedule.",
     avatar: "/images/avatar1.jpg",
     initials: "AK",
   },
   {
-    name: "Moshood Shittu",
+    name: "Sarah Jane",
     role: "C.T.O Acme Innovations",
     content: "The emergency power system Gulf-Meadow designed for our work space has been flawless through several outages. Their attention to detail gave us complete confidence in their work.",
     avatar: "/images/avatar2.jpg",
     initials: "SM",
   },
   {
-    name: "Zainab Balogun",
+    name: "John Doe",
     role: "CEO, Zeeq Fashion",
     content: "We trusted Gulf-Meadow with our data center's critical power infrastructure, and they exceeded our expectations at every turn. Truly experts in their field.",
     avatar: "/images/avatar3.jpg",
@@ -49,7 +49,7 @@ export function Testimonials() {
                   </Avatar>
                   <div>
                     <p className="font-semibold">{testimonial.name}</p>
-                    <p className="text-sm text-gray-600">{testimonial.role}</p>
+                    {/* <p className="text-sm text-gray-600">{testimonial.role}</p> */}
                   </div>
                 </div>
               </CardContent>
