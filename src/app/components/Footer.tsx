@@ -2,6 +2,9 @@ import Link from "next/link";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import Logo from "../../../public/assets/logo.png"
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+
 
 export function Footer() {
   return (
@@ -57,7 +60,7 @@ export function Footer() {
                   <Twitter className="h-5 w-5" />
                 </Link>
                 <Link href="https://wa.link/ohofjl" className="text-gray-400 hover:text-primary transition">
-                  <Linkedin className="h-5 w-5" />
+                  <FontAwesomeIcon icon={faWhatsapp} className="h-5 w-5"/> 
                 </Link>
                 <Link href="#" className="text-gray-400 hover:text-primary transition">
                   <Instagram className="h-5 w-5" />
